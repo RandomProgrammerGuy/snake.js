@@ -5,7 +5,7 @@ const snake_border = 'darkblue';
 
 let snake = [{x: 200, y: 200}, {x: 200, y: 190}, {x: 200, y: 180}, {x: 200, y: 170}, {x: 200, y: 160}]
 
-const snakeboard = document.getElementById('gameBoard');
+const snakeboard = document.getElementById('gameCanvas');
 const snakeboard_ctx = gameCanvas.getContext('2d');
 
 main();
