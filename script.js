@@ -1,3 +1,8 @@
+const board_border = 'black';
+const board_background = "white";
+const snake_col = 'lightblue';
+const snake_border = 'darkblue';
+
 const snakeboard = document.getElementById('gameBoard');
 const snakeboard_ctx = gameCanvas.getContext('2d');
 
