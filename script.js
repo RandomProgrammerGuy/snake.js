@@ -18,3 +18,14 @@ function drawSnakePart(part) {
 function drawSnake() {
     snake.forEach(drawSnakePart)
 }
+
+function clearCanvas() {
+    snakeboard_ctx.fillStyle = board_background;
+    snakeboard_ctx.strokestyle = board_border;
+    snakeboard_ctx.fillRect(0, 0, snakeboard.width, snakeboard.height);
+    snakeboard_ctx.strokeRect(0, 0, snakeboard.width, snakeboard.height);
+
+function main() {
+    clearCanvas()
+    drawSnake()
+}
